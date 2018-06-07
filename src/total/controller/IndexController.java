@@ -11,7 +11,8 @@ public class IndexController {
 	public String indexHandler(Model model) {
 		
 		model.addAttribute("msg","Hello!");
-		return "index";
+		model.addAttribute("main","index.jsp");
+		return "default";
 		
 	}
 }
